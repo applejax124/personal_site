@@ -1,0 +1,35 @@
+baseURL = "http://camigcarballo.com/"
+languageCode = "en-us"
+title = "Cami Carballo"
+theme = "nix"
+
+[params]
+  GithubID = "camicarballo"
+  LinkedInID = "camicarballo"
+  Name = "Cami Carballo"
+  HeaderUsername = "camelot"
+  HeaderHostname = "home"
+  About = "Senior at the University of Notre Dame majoring in Computer Science."
+  ProfilePicture = "/profile.jpg"
+  CvURL = "/resume.pdf"
+
+[menu]
+  [[menu.header]]
+    name = "about"
+    weight = 0
+    url = "/about"
+
+  [[menu.header]]
+    name = "projects"
+    weight = 0
+    url = "/projects"
+
+  [[menu.header]]
+    name = "clubs"
+    weight = 0
+    url = "/clubs"
+
+  [[menu.header]]
+    name = "research"
+    weight = 0
+    url = "/research"
